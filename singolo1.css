@@ -1,0 +1,247 @@
+.header{
+    height: 89px;
+    width: 1020px;
+    background:url(./assets/images/header_bg.png);
+    background-size: cover;
+    
+}
+.header2{
+    height: 89px;
+    width: 1020px;
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 89px;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 25px;
+    font-family: "Lato";
+    font-weight: 700;
+    
+
+
+}
+.logo span{
+    color: red;
+}
+
+.header_bottom{
+    height: 6px;
+    width: 1020px;
+    background:url(./assets/images/header_bg_bottom.png);
+    background-size: cover;
+}
+.slider{
+    height: 594px;
+    width: 1020px;
+    background:url(./assets/images/slider_bg.png);
+    background-size: cover;
+}
+.slider_bottom{
+    height: 6px;
+    width: 1020px;
+    background:url(./assets/images/slider_bg_bottom.png);
+    background-size: cover;
+}
+.services{
+    height: 153px;
+    width: 1020px;
+    background:url(./assets/images/services_bg.png);
+    background-size: cover;
+}
+.services_grid{
+    height: 215px;
+    width: 980px;
+    background:url(./assets/images/services_bg.png);
+    background-size: cover;
+    display: flex;
+    margin-left: 40px;
+}
+.services_grid, .cell{
+    flex-grow: 1;
+}   
+
+
+.services_bottom{
+    height: 6px;
+    width: 1020px;
+    background:url(./assets/images/services_bg_bottom.png);
+    background-size: cover;
+}
+.navbar{
+    width: 407px;
+    text-align: justify;
+
+}
+.navbar ul {
+  
+display: flex;
+justify-content: space-around  ;
+       
+}
+.navbar ul li a{
+    display: flex;
+    font-size: 12px;
+    line-height: 6px;
+    color: rgb(207, 205, 205);
+    font-family: "Lato";
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    line-height: 100px;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 0px 0px 0px -50px;
+} 
+.navbar ul li a:hover{
+    color: red
+} 
+
+.iphonevertical{
+    z-index: 5;
+    position: absolute;
+    margin: 53px 0px 0px 112px;
+    
+}
+.iphonehorizontal{
+    z-index: 5;
+    position: absolute;
+    margin: 174px 0px 0px 425px;
+    
+}
+svg path {
+    stroke:inherit;
+    stroke-width:inherit;
+    fill:inherit;
+    }
+
+.chev_left svg{
+    z-index: 5;
+    position: absolute;
+    margin-top: 281px;
+    margin-left: 41px;
+        
+}
+.chev_right svg{
+    transform: scaleX(-1);
+    z-index: 5;
+    position: absolute;
+    margin-top: 281px;
+    margin-left: 963px;
+    
+    
+}
+.chev_left svg:hover{
+    cursor: pointer;
+    fill: black;
+    stroke: black;
+     color:   black;
+}
+.chev_right svg:hover{
+    cursor: pointer;
+    fill: black;
+    stroke: black;
+     color:   black;
+}
+
+
+.serv_header{
+margin-left: 40px;
+font-size: 30px;
+line-height: 24px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+margin-top: 65px;
+letter-spacing: 0.1px;
+}
+
+.serv_text{
+     
+    font-size: 18px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-top: 35px;
+    margin-left: 40px;
+    letter-spacing: 0px;
+    text-align: justify;
+    line-height: 0.8ex;
+    
+}
+
+.ellipse1{
+    z-index: 2;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    
+}
+.pen{
+    z-index: 3;
+    position: absolute;
+    margin: 12px 0px 0px 12px;
+    
+}
+
+.ellipse2{
+    z-index: 2;
+    position: absolute;
+    margin: 120px 0px 0px 0px;
+    
+}
+
+.phone{
+    z-index: 3;
+    position: absolute;
+    margin: 132px 0px 0px 16px;
+    
+}
+.head_cell_1{
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-left: 80px;
+}
+.text_cell_1{
+margin-left: 80px;
+width: 200px;
+height: 100px;
+font-size: 12px;
+line-height: 22px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 400;
+text-align: left;
+}
+
+.head_cell_2{
+    font-size: 18px;
+    line-height: 27px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+.text_cell_2{
+margin-left: 80px;
+width: 200px;
+height: 128px;
+font-size: 12px;
+line-height: 22px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 400;
+text-align: left;
+margin-top: 0px;
+}
